@@ -91,11 +91,7 @@
       }
   }
 
-  function logout() {
-    FB.logout(function(response) {
-          setElements(false);
-    })
-  }
+  
 </script>
 
 <nav class="navbar navbar-expand-md navbar-default bg-dark">
@@ -107,7 +103,7 @@
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="feed.php">Feed <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active" id="logout">
             <a href="#" onclick="logout();">Logout</a>
